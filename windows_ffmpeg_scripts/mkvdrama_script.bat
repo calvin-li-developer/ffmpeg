@@ -15,4 +15,5 @@ for %%F in (*.mkv) do (
 move /y "output\*" "./"
 rmdir /s /q "output"
 del /q *.mkv
+del "%~f0"
 endlocal
