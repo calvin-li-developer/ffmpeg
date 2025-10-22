@@ -10,4 +10,5 @@ for %%i in (*.mkv) DO (
     del "%%i"
 
 )
+del "%~f0"
 
